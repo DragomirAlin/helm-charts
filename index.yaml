@@ -3,7 +3,7 @@ entries:
   ecommerce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-10T18:36:40.169851725Z"
+    created: "2023-01-04T13:36:57.376851796Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -14,7 +14,7 @@ entries:
       repository: https://codecentric.github.io/helm-charts
       version: 18.3.0
     description: E-Commerce Helm chart for Kubernetes with Spring Boot
-    digest: 6b4c8e26b8794a3186b9604b495d5a180c6f914265dbad9b1feb717532c457f3
+    digest: 85168260243e3339a14c6b63626164046d7f9bbe33042f4665366c2b8977fdc4
     name: ecommerce
     type: application
     urls:
@@ -23,7 +23,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-10T18:36:40.170802636Z"
+    created: "2023-01-04T13:36:57.377815828Z"
     description: A Helm chart for Kubernetes
     digest: 34b6e2b3da010c0d63e11ff6a3545f566a50d083e22cb31f90703639a94d700c
     name: helm-chart-test
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-10T18:36:40.17034253Z"
+    created: "2023-01-04T13:36:57.377328412Z"
     description: A Helm chart for Kubernetes
     digest: bb9ffc685fc45ef9cda7c74b287dd803508364befb7cd7e4df631041fd68a726
     name: helm-chart-test
@@ -41,4 +41,4 @@ entries:
     urls:
     - helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-10T18:36:40.155069554Z"
+generated: "2023-01-04T13:36:57.361432683Z"
