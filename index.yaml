@@ -3,7 +3,7 @@ entries:
   ecommerce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-04T12:08:43.739768263Z"
+    created: "2023-03-04T12:44:13.358261953Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -18,7 +18,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 17.8.2
     description: E-Commerce Helm chart for Kubernetes with Spring Boot
-    digest: 5294063f2b3875245feb38a3082bd65b40d4d485e72f7763290dd5d5dabff3e5
+    digest: 26e83e54bfc9b11a4646d1dc413060479c606034c2b9f8e1906cf2a70e44a671
     name: ecommerce
     type: application
     urls:
@@ -27,7 +27,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-04T12:08:43.740731985Z"
+    created: "2023-03-04T12:44:13.359221863Z"
     description: A Helm chart for Kubernetes
     digest: 34b6e2b3da010c0d63e11ff6a3545f566a50d083e22cb31f90703639a94d700c
     name: helm-chart-test
@@ -37,7 +37,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-04T12:08:43.740270875Z"
+    created: "2023-03-04T12:44:13.358744658Z"
     description: A Helm chart for Kubernetes
     digest: bb9ffc685fc45ef9cda7c74b287dd803508364befb7cd7e4df631041fd68a726
     name: helm-chart-test
@@ -45,4 +45,4 @@ entries:
     urls:
     - helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-04T12:08:43.717550144Z"
+generated: "2023-03-04T12:44:13.334245405Z"
