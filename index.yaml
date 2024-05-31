@@ -3,7 +3,7 @@ entries:
   ecommerce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-03T17:45:53.237566657Z"
+    created: "2024-05-31T17:15:34.347528996Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +26,7 @@ entries:
     version: 0.0.2+dev
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-03T17:45:53.216334244Z"
+    created: "2024-05-31T17:15:34.33068024Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,7 +50,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-03T17:45:53.238509344Z"
+    created: "2024-05-31T17:15:34.348242128Z"
     description: A Helm chart for Kubernetes
     digest: 34b6e2b3da010c0d63e11ff6a3545f566a50d083e22cb31f90703639a94d700c
     name: helm-chart-test
@@ -60,7 +60,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-03T17:45:53.23806195Z"
+    created: "2024-05-31T17:15:34.347903736Z"
     description: A Helm chart for Kubernetes
     digest: bb9ffc685fc45ef9cda7c74b287dd803508364befb7cd7e4df631041fd68a726
     name: helm-chart-test
@@ -68,4 +68,28 @@ entries:
     urls:
     - helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-03T17:45:53.193712549Z"
+  languages-api:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-05-31T17:15:34.36447847Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.9.4
+    - condition: keycloak.enabled
+      name: keycloak
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.4.0
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 17.8.2
+    description: A Helm chart for Kubernetes
+    digest: 276bdaea69fcfa306817d2a4d145af5c8c94cdab5466ffdc7de6da5897c6739e
+    name: languages-api
+    type: application
+    urls:
+    - languages-api-0.0.1+dev.tgz
+    version: 0.0.1+dev
+generated: "2024-05-31T17:15:34.313391874Z"
