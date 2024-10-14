@@ -3,7 +3,7 @@ entries:
   ecommerce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-25T10:36:24.025568787Z"
+    created: "2024-10-14T12:22:53.685577009Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +26,7 @@ entries:
     version: 0.0.2+dev
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-25T10:36:24.009148034Z"
+    created: "2024-10-14T12:22:53.669645297Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,7 +50,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-25T10:36:24.026275938Z"
+    created: "2024-10-14T12:22:53.686246109Z"
     description: A Helm chart for Kubernetes
     digest: 34b6e2b3da010c0d63e11ff6a3545f566a50d083e22cb31f90703639a94d700c
     name: helm-chart-test
@@ -60,7 +60,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-25T10:36:24.025942575Z"
+    created: "2024-10-14T12:22:53.685919108Z"
     description: A Helm chart for Kubernetes
     digest: bb9ffc685fc45ef9cda7c74b287dd803508364befb7cd7e4df631041fd68a726
     name: helm-chart-test
@@ -71,7 +71,7 @@ entries:
   languages-api:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-25T10:36:24.043047462Z"
+    created: "2024-10-14T12:22:53.702832516Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -86,10 +86,10 @@ entries:
       repository: oci://registry-1.docker.io/bitnamicharts
       version: 17.8.2
     description: A Helm chart for Kubernetes
-    digest: 3b0ef8e4b8b40d4fd06353b42670120e9cb9556d14848dabb79520690e1fa323
+    digest: 8953740a346f67cfa591a4ee6234716e6b645894fcdf25b631cf8cda0704524c
     name: languages-api
     type: application
     urls:
     - languages-api-0.0.1+dev.tgz
     version: 0.0.1+dev
-generated: "2024-07-25T10:36:23.9924707Z"
+generated: "2024-10-14T12:22:53.653252947Z"
