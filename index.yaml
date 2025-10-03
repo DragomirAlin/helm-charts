@@ -3,7 +3,7 @@ entries:
   ecommerce:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-03T06:35:11.721727994Z"
+    created: "2025-10-03T06:51:32.23874326Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +26,7 @@ entries:
     version: 0.0.2+dev
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-03T06:35:11.705468241Z"
+    created: "2025-10-03T06:51:32.222808331Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -50,7 +50,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-03T06:35:11.722436547Z"
+    created: "2025-10-03T06:51:32.239515492Z"
     description: A Helm chart for Kubernetes
     digest: 34b6e2b3da010c0d63e11ff6a3545f566a50d083e22cb31f90703639a94d700c
     name: helm-chart-test
@@ -60,7 +60,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-03T06:35:11.722098476Z"
+    created: "2025-10-03T06:51:32.239164156Z"
     description: A Helm chart for Kubernetes
     digest: bb9ffc685fc45ef9cda7c74b287dd803508364befb7cd7e4df631041fd68a726
     name: helm-chart-test
@@ -71,7 +71,7 @@ entries:
   languages-api:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-10-03T06:35:11.739975945Z"
+    created: "2025-10-03T06:51:32.255821173Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -95,7 +95,22 @@ entries:
   oxford:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.784490309Z"
+    created: "2025-10-03T06:51:32.307046433Z"
+    dependencies:
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.6.26
+    description: A Helm chart for Oxford Words application
+    digest: ba10040a55a4f4b0c5205ed923cdbe388391c7c7c0f74608d2792cc00500be8d
+    name: oxford
+    type: application
+    urls:
+    - oxford-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-10-03T06:51:32.300024599Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -110,7 +125,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.776848177Z"
+    created: "2025-10-03T06:51:32.29298766Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -125,7 +140,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.889081412Z"
+    created: "2025-10-03T06:51:32.412307017Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -140,7 +155,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.882847989Z"
+    created: "2025-10-03T06:51:32.405591928Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -155,7 +170,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.875687416Z"
+    created: "2025-10-03T06:51:32.398623172Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -170,7 +185,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.860899072Z"
+    created: "2025-10-03T06:51:32.383971165Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -185,7 +200,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.845296304Z"
+    created: "2025-10-03T06:51:32.369374296Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -204,7 +219,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.830440079Z"
+    created: "2025-10-03T06:51:32.353312237Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -223,7 +238,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.814963829Z"
+    created: "2025-10-03T06:51:32.337624822Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -242,7 +257,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.799311886Z"
+    created: "2025-10-03T06:51:32.321881389Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -261,7 +276,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.770003194Z"
+    created: "2025-10-03T06:51:32.286788739Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -280,7 +295,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-03T06:35:11.754984023Z"
+    created: "2025-10-03T06:51:32.270985744Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -297,4 +312,4 @@ entries:
     urls:
     - oxford-0.0.0-main.tgz
     version: 0.0.0-main
-generated: "2025-10-03T06:35:11.688334363Z"
+generated: "2025-10-03T06:51:32.204359624Z"
